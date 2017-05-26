@@ -2,3 +2,5 @@
 
 windows maskin
 
+har nmapet til helvete og alt viser bare filtered
+
