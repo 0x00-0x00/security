@@ -32,6 +32,8 @@ Many ftp-servers allow anonymous users. These might be misconfigured and give to
 If you upload a binary file you have to put the ftp-server in binary mode, otherwise the file will become corrupted and you will not be able to use it! The same for text-files. Use ascii mode for them!
 You just write **binary** and **ascii** to switch mode.
 
+Use get or mget (multiple) to download files from remote host to local. Likewise use put to upload files to the remote host.
+
 ## Port 22 - SSH
 
 SSH is such an old and fundamental technology so most modern version are quite hardened.
