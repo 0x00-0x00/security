@@ -113,5 +113,5 @@
 * [hackthebox](hackthebox.md)
   * [lame](hackthebox/lame.md)
   * [legacy](hackthebox/legacy.md)
-  * devel
+  * [devel](hackthebox/devel.md)
 
