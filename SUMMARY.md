@@ -97,6 +97,7 @@
   * [WEP](wep.md)
   * [WPS](wps.md)
 * [Physical access to machine](physical_access_to_machine.md)
+  * [Malicious USB drives](physical_access_to_machine/rubber-ducky.md)
 * [Literature](littearature.md)
 * [Writeups](writeups.md)
   * [Vulnhub](writeups/vulnhub.md)
