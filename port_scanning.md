@@ -6,6 +6,9 @@
 # Stealthy, simple and fast
 nmap -sS 10.11.1.X
 
+# Syn scan with os (-O), services(-A) and ports 1-60k, without dnsresolve (-n). can skip all ports
+nmap -sS -A -O -n -p1-60000 10.0.0.10 
+
 # Scan all ports, might take a while.
 nmap 10.11.1.X -p-
 
