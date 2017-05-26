@@ -1,4 +1,6 @@
-`root@kali:~# nmap -sS -P0 10.10.10.5`
+# devel 10.10.10.5
+
+`oot@kali:~# nmap -sS -P0 10.10.10.5`
 
 `Starting Nmap 7.40 ( https://nmap.org ) at 2017-05-26 09:47 EDT`
 
@@ -13,8 +15,6 @@
 `21/tcp open  ftp`
 
 `80/tcp open  http`
-
-
 
 logget inn ftp med anonymous.
 
