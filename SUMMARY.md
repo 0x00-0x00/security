@@ -108,6 +108,6 @@
   * [Vulnhub](writeups/vulnhub.md)
     * [Quaoar](writeups/vulnhub/quaoar.md)
     * [Pluck 1](pluck-1.md)
-    * [nsm hack - chris](writeups/nsm-hack-chris.md)
+    * [nsm hack](writeups/nsm-hack-chris.md)
   * [SANS Holiday Hack 2016](writeups/sans-holiday-hack-2016.md)
 

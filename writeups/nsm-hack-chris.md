@@ -1,3 +1,7 @@
+## NSM hack challenge
+
+https://challenge.i18.no/about
+
 1 kjører sha256sum 'string' og får ut svaret
 
 2 prøvd tekst opp ned, prøvd å sjekke header, ingen håp enda. kanskje sjekke burp. burp funker ikke?
