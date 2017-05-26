@@ -1,6 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
+* [Todo](todo.md)
+* [Random tools](random-tools.md)
 * [The Basics](the_basics.md)
   * [Linux](linux.md)
     * [Bash-scripting](bash-scripting.md)
@@ -32,6 +34,7 @@
     * [Identifying Technology Stack](identifying-technology-stack.md)
   * [Active Information Gathering](active_information_gathering.md)
     * [Port Scanning](port_scanning.md)
+    * [Active Directory mapping](active-directory.md)
 * [Vulnerability analysis](vulnerability_analysi1s.md)
   * [Server-side Vulnerabilities](server-side-vulnerabilities.md)
     * [Common ports\/services and how to use them](list_of_common_ports.md)
@@ -96,6 +99,7 @@
 * [Wifi](wifi.md)
   * [WEP](wep.md)
   * [WPS](wps.md)
+  * [WPA](wpa.md)
 * [Physical access to machine](physical_access_to_machine.md)
   * [Malicious USB drives](physical_access_to_machine/rubber-ducky.md)
 * [Literature](littearature.md)
