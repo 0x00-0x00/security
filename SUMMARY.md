@@ -112,4 +112,6 @@
   * [SANS Holiday Hack 2016](writeups/sans-holiday-hack-2016.md)
 * [hackthebox](hackthebox.md)
   * [lame](hackthebox/lame.md)
+  * [legacy](hackthebox/legacy.md)
+  * devel
 
