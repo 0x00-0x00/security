@@ -10,7 +10,7 @@
 
 `PORT    STATE SERVICE`
 
-**`21/tcp  open  ftp`**
+`21/tcp  open  ftp`
 
 `22/tcp  open  ssh`
 
@@ -18,9 +18,13 @@
 
 `445/tcp open  microsoft-ds`
 
-
-
 vsftpd 2.3.4, prøvde metasploit uten hell
 
-ssh er 
+ssh erOpenSSH 4.7p1 - ingen vulns
+
+port 139 smb har version 3.0.20 https://www.rapid7.com/db/modules/exploit/multi/samba/usermap\_script
+
+**shell!**
+
+
 
