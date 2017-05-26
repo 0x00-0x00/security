@@ -1,32 +1,59 @@
 # OSCP
 
-So part of the reason I have been working on this document/notepad/book is to prepare for the oscp exam.
+**Some info**
 
-Here are its guide-lines
-https://support.offensive-security.com/#!oscp-exam-guide.md
+cory is a difficult machime
 
-## Highlights From the Guide
+"big 3" in the course are called pain, sufference and humble
 
-### Exam Proofs: Linux
+exam: 5 machines, must root 4. the hardest is buffer overflow from scratch
 
-> On all Linux targets, you must have a root shell to receive full points. You must provide the contents of the proof files IN A SHELL (web, bind, reverse, or ssh) with the "cat" command from their original location. Obtaining the contents of the proof files in any other way will result in zero points for the target machine.
+**Should learn:**
+
+* python
+* buffer overflow
+* port forwaring and pivoting
+* practice post exploitation
 
 
-### Forbidden tools
+**Read _Jollyfrog's tale_**
+http://www.techexams.net/forums/security-certifications/110760-oscp-jollyfrogs-tale-5.html
 
-- Spoofing (IP, ARP, DNS, NBNS, etc)
-- Commercial tools or services (Metasploit Pro, Burp Pro, etc.)
-- Automatic exploitation tools (e.g. db_autopwn, browser_autopwn, SQLmap, SQLninja etc.)
-- Mass vulnerability scanners (e.g. Nessus, NeXpose, OpenVAS, Canvas, Core Impact, SAINT, etc.)
-- Features in other tools that utilize either forbidden or restricted exam limitations
 
-### Exam restrictions
+### OSCP-like Vulnhub VMs
+Before starting the PWK course I solved some of the Vulnhub VMs so I don't need to start from rock bottom on the PWK lab. Below is a list of Vulnhub VMs I solved, most of them are similar to what you'll be facing in the lab. I've written walkthroughs for a few of them as well, but try harder first ;)
 
-> The usage of Metasploit is restricted for the exam. You can only use Metasploit Auxiliary, Exploit, and Post modules against one target machine of your choice. Once you have selected your one target machine, you can not use Metasploit Auxiliary, Exploit, and Post modules against any other machines.
+**
+Beginner friendly:**
+All these are *nix based
 
 ```
-multi handler (aka exploit/multi/handler)
-meterpreter
-msfpayload & msfencode
-msfvenom
+Kioptrix: Level 1 (#1) 
+Kioptrix: Level 1.1 (#2) 
+Kioptrix: Level 1.2 (#3) 
+Kioptrix: Level 1.3 (#4) 
+FristiLeaks: 1.3 
+Stapler: 1
+PwnLab: init
+ Intermediate:
+Kioptrix: 2014
+Brainpan: 1
+Mr-Robot: 1  
+HackLAB: Vulnix
+VulnOS: 2
+SickOs: 1.2
+/dev/random: scream 
+pWnOS: 2.0
+SkyTower: 1 
+IMF
 ```
+
+**Windows **
+There aren't many Windows machines around due to licensing. Few options:
+Metasploitable 3, will download a trial version of Windows Server.
+https://github.com/magnetikonline/linuxmicrosoftievirtualmachines you can download Windows VMs legally then hack your way through them through an unpatched vulnerability or setting up a vulnerable software.
+
+Set up your own lab. Default Windows XP SP0 will give you the chance to try out a few remote exploits, or doing some privilege escalation using weak services.
+/dev/random: Sleepy (Uses VulnInjector, need to provide you own ISO and key.)
+Bobby: 1 (Uses VulnInjector, need to provide you own ISO and key.)
+https://github.com/g0tmi1k/VulnInjector
