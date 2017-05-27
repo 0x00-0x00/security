@@ -22,7 +22,9 @@ logget inn ftp med anonymous. masse filer. last ned alt med `mget * .` og login 
 
 http kjører iis7
 
-[http://10.10.10.5/myshell.aspx](http://10.10.10.5/myshell.aspx)
+laster opp et aspx shell https://raw.githubusercontent.com/tennc/webshell/master/fuzzdb-webshell/asp/cmd.aspx
+
+[http://10.10.10.5](http://10.10.10.5/myshell.aspx)/sh.aspx
 
 kan her kjøre kommandoer. /c net user
 
