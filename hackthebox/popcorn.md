@@ -6,7 +6,9 @@
 
 dirb
 
-http://10.10.10.6/torrent/login.php
+[http://10.10.10.6/torrent/login.php](http://10.10.10.6/torrent/login.php)
 
-woo
+laste opp en torrent. prøve å finne et sted å laste opp bilde, obfuscate kode i bildet og bam
+
+
 
