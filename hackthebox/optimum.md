@@ -6,12 +6,14 @@ nmap port 80
 
 hfs 2.3 server. finnes exploit
 
-kjørte i metasploit exploit/windows/http/rejetto\_hfs\_exec\)
+kjørte i metasploit exploit/windows/http/rejetto\_hfs\_exec\)'
+
+sett srvhost men ikke srvport
 
 user.txt **d0c39409d7b994a9a1389ebf38ef5f73**
 
 ```
-                                        Update           KB2959936  11/22/2014   
+                                        Update           KB2959936  11/22/2014
 ```
 
 [http://support.microsoft.com/?kbid=2896496](http://support.microsoft.com/?kbid=2896496)  Update           KB2896496  11/22/2014
