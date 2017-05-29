@@ -39,6 +39,7 @@ arp -A
 
 # How well patched is the system?
 wmic qfe get Caption,Description,HotFixID,InstalledOn
+wmic qfe get Caption,Description,HotFixID,InstalledOn | findstr /C:"KB.." /C:"KB.." - to find specific KBs
 ```
 
 ## Cleartext Passwords
@@ -430,7 +431,6 @@ vdmexploit.dll
 ### Using Metasploit
 
 So if you have a metasploit meterpreter session going you can run `getsystem`.
-
 
 ## Post modules
 
