@@ -6,5 +6,5 @@ Microsoft Windows 2003\|XP\|2008 \(92%\)
 
 kjører iis 6.0. kan exploites med webdav?
 
-
+exploit/windows/iis/iis\_webdav\_upload\_asp skulle fungert, men gjør ikke det. får server error
 
