@@ -28,7 +28,7 @@ linux-maskin
 
 `10000/tcp open  snet-sensor-mgmt`
 
-
-
 http med sql. nice
+
+apache 2.2.3 men ingen exploits
 
