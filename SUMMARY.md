@@ -115,4 +115,5 @@
   * [legacy](hackthebox/legacy.md)
   * [devel](hackthebox/devel.md)
   * [popcorn](hackthebox/popcorn.md)
+  * [beep](hackthebox/beep.md)
 
