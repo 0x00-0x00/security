@@ -14,7 +14,7 @@ wmic qfe get Caption,Description,HotFixID,InstalledOn
 getsystem
 ```
 
-user.txt e69af0e4f443de7e36876fda4ec7644f
+user.txt **e69af0e4f443de7e36876fda4ec7644f**
 
-type root.txt 993442d258b0e0ec917cae9e695d5713
+type root.txt **993442d258b0e0ec917cae9e695d5713**
 
