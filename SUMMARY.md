@@ -120,4 +120,5 @@
   * [bastard](bastard.md)
   * [october](october.md)
   * [grandpa](grandpa.md)
+  * [granny](hackthebox/granny.md)
 
