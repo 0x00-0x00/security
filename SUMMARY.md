@@ -117,4 +117,5 @@
   * [popcorn](hackthebox/popcorn.md)
   * [beep](hackthebox/beep.md)
   * [optimum](hackthebox/optimum.md)
+  * [bastard](bastard.md)
 
