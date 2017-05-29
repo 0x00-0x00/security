@@ -118,4 +118,6 @@
   * [beep](hackthebox/beep.md)
   * [optimum](hackthebox/optimum.md)
   * [bastard](bastard.md)
+  * [october](october.md)
+  * [grandpa](grandpa.md)
 
