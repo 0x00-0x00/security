@@ -116,4 +116,5 @@
   * [devel](hackthebox/devel.md)
   * [popcorn](hackthebox/popcorn.md)
   * [beep](hackthebox/beep.md)
+  * [optimum](hackthebox/optimum.md)
 
