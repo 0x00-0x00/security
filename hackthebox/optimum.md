@@ -82,7 +82,7 @@ prøvd å laste opp ps1-script og får kjørt det, men prosessen ligger i bakgru
 
 må finne en måte å få reverse shell fra powershellet
 
-**use exploit/windows/local/ms16\_032\_secondary\_logon\_handle\_privesc **
+use exploit/windows/local/ms16\_032\_secondary\_logon\_handle\_privesc 
 
-ble ikke admin allikevle. wut
+tror denne er riktig. 
 
