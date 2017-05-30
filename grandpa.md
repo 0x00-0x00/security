@@ -8,3 +8,9 @@ kjører iis 6.0. kan exploites med webdav?
 
 exploit/windows/iis/iis\_webdav\_upload\_asp skulle fungert, men gjør ikke det. får server error
 
+
+
+use auxiliary/scanner/http/http\_put
+
+
+
