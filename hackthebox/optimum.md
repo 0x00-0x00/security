@@ -8,7 +8,7 @@ hfs 2.3 server. finnes exploit
 
 kjørte i metasploit exploit/windows/http/rejetto\_hfs\_exec\)'
 
-sett srvhost men ikke srvport
+sett srvhost til samme som lhost men ikke srvport
 
 user.txt **d0c39409d7b994a9a1389ebf38ef5f73**
 
@@ -82,7 +82,7 @@ prøvd å laste opp ps1-script og får kjørt det, men prosessen ligger i bakgru
 
 må finne en måte å få reverse shell fra powershellet
 
-use exploit/windows/local/ms16\_032\_secondary\_logon\_handle\_privesc 
+use exploit/windows/local/ms16\_032\_secondary\_logon\_handle\_privesc
 
-tror denne er riktig. 
+tror denne er riktig.
 
