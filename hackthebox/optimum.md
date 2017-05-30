@@ -6,7 +6,7 @@ nmap port 80
 
 hfs 2.3 server. finnes exploit
 
-kjørte i metasploit exploit/windows/http/rejetto\_hfs\_exec\)'
+kjørte i metasploit exploit/windows/http/rejetto\_hfs\_exec
 
 sett srvhost til samme som lhost men ikke srvport
 
