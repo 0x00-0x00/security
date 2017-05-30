@@ -123,6 +123,10 @@ msf post(enum_patches) > exploit
 [-]   /usr/share/metasploit-framework/modules/post/windows/gather/enum_patches.rb:72:in `run'
 [*] Post module execution completed
 
+msf post(enum_patches) > run
+
+[-] Known bug in WMI query, try migrating to another process
+[*] Post module execution completed
 
 
 
