@@ -30,5 +30,5 @@ port 139 smb har version 3.0.20 [https://www.rapid7.com/db/modules/exploit/multi
 
 flag: **92caac3be140ef409e45721348a4e9df**
 
-home/user/makis/user.txt 69454a937d94f5f0225ea00acd2e84c5
+home/user/makis/user.txt **69454a937d94f5f0225ea00acd2e84c5**
 

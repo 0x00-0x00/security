@@ -34,7 +34,7 @@ apache 2.2.3 men ingen exploits
 
 111/tcp   open  rpcbind    2 \(RPC \#100000\)
 
-\| rpcinfo: 
+\| rpcinfo:
 
 \|   program version   port/proto  service
 
@@ -52,7 +52,7 @@ apache 2.2.3 men ingen exploits
 
 443/tcp   open  ssl/http   Apache httpd 2.2.3 \(\(CentOS\)\)
 
-\| http-robots.txt: 1 disallowed entry 
+\| http-robots.txt: 1 disallowed entry
 
 \|\_/
 
@@ -79,6 +79,10 @@ apache 2.2.3 men ingen exploits
 4445/tcp  open  upnotifyp?
 
 10000/tcp open  http       MiniServ 1.570 \(Webmin httpd\)
+
+
+
+\[+\] 10.10.10.7:25         - 10.10.10.7:25 Users found: , adm, bin, daemon, fax, ftp, games, gdm, gopher, haldaemon, halt, lp, mail, news, nobody, operator, postgres, postmaster, sshd, sync, uucp, webmaster, www
 
 
 

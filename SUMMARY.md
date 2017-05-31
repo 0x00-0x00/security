@@ -118,8 +118,11 @@
   * [beep 7](hackthebox/beep.md)
   * [optimum 8](hackthebox/optimum.md)
   * [bastard 9](bastard.md)
+  * [tenten 10](hackthebox/tenten-10.md)
   * [arctic 11](hackthebox/arctic-11.md)
+  * [cronos 13](hackthebox/cronos-13.md)
   * [grandpa 14](grandpa.md)
   * [granny 15](hackthebox/granny.md)
   * [october 16](october.md)
+* [sneaky 20](sneaky-20.md)
 
