@@ -52,7 +52,7 @@ bra cfm shell her [https://github.com/fuzzdb-project/fuzzdb](https://github.com/
 
 kjøre kommandoer til jeg finner noe gøy
 
-Microsoft Windows Server 2008 R2 Standard x64'
+Microsoft Windows **Server** **2008 R2 Standard x64**
 
 /c dir "c:\coldfusion8\wwwroot\CFIDE" &gt; c:\coldfusion8\wwwroot\out.txt
 
