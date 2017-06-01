@@ -12,9 +12,11 @@ use exploit/windows/iis/iis\_webdav\_upload\_asp
 
 403 forbidden
 
-http://10.10.10.14/images/ eksisterer
+[http://10.10.10.14/images/](http://10.10.10.14/images/) eksisterer
 
 10.10.10.14 \(Microsoft-IIS/6.0\) has WEBDAV ENABLED
 
 use exploit/windows/iis/iis\_webdav\_scstoragepathfromurl
+
+
 

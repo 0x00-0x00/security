@@ -92,3 +92,7 @@ funket ikke
 
 whoami &gt; c:\coldfusion8\wwwroot\out.txt
 
+kanskje applocker er enablet?
+
+
+
