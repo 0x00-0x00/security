@@ -24,11 +24,11 @@ Microsoft IIS httpd 7.5
 
 49154/tcp open  msrpc   Microsoft Windows RPC
 
-
-
 drupal 7.54 exploit
 
-https://www.ambionics.io/blog/drupal-services-module-rce
+[https://www.ambionics.io/blog/drupal-services-module-rce](https://www.ambionics.io/blog/drupal-services-module-rce)
 
-https://github.com/mottoin/Drupal-Exploit
+[https://github.com/mottoin/Drupal-Exploit](https://github.com/mottoin/Drupal-Exploit)
+
+
 
