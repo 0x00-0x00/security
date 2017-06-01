@@ -30,5 +30,9 @@ drupal 7.54 exploit
 
 [https://github.com/mottoin/Drupal-Exploit](https://github.com/mottoin/Drupal-Exploit)
 
+wfuzz megabeast
 
+10.10.10.9/rest valdidation
+
+burde nå funke med path /rest og endpoint uforandret
 
