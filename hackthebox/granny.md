@@ -107,7 +107,7 @@ kerberos :
 
 ssp :    
 
-credman :    
+credman :
 ```
 
 Authentication Id : 0 ; 996 \(00000000:000003e4\)
@@ -139,7 +139,7 @@ msv :
 
  \* SHA1     : da39a3ee5e6b4b0d3255bfef95601890afd80709
 
-wdigest :    
+wdigest :
 ```
 
 

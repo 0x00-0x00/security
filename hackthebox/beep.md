@@ -80,9 +80,13 @@ apache 2.2.3 men ingen exploits
 
 10000/tcp open  http       MiniServ 1.570 \(Webmin httpd\)
 
-
-
 \[+\] 10.10.10.7:25         - 10.10.10.7:25 Users found: , adm, bin, daemon, fax, ftp, games, gdm, gopher, haldaemon, halt, lp, mail, news, nobody, operator, postgres, postmaster, sshd, sync, uucp, webmaster, www
 
 
+
+
+
+post: running services
+
+linux\_exploit\_suggester
 
