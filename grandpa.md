@@ -22,3 +22,11 @@ use exploit/windows/iis/iis\_webdav\_scstoragepathfromurl
 
 priv esc fra granny skal virke. må bare få lastet opp fil.
 
+auxiliary/scanner/http/dir\_scanner for å finne dir
+
+**set targeturi /\_vti\_bin**
+
+**9359e905a2c35f861f6a57cecf28bb7b **root.txt
+
+user.txt **bdff5ec67c3cff017f2bedc146a5d869**
+
