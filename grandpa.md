@@ -18,5 +18,7 @@ use exploit/windows/iis/iis\_webdav\_upload\_asp
 
 use exploit/windows/iis/iis\_webdav\_scstoragepathfromurl
 
+**shell - den virker. husk å resete først**
 
+priv esc fra granny skal virke. må bare få lastet opp fil.
 
