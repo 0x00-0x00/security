@@ -82,11 +82,35 @@ apache 2.2.3 men ingen exploits
 
 \[+\] 10.10.10.7:25         - 10.10.10.7:25 Users found: , adm, bin, daemon, fax, ftp, games, gdm, gopher, haldaemon, halt, lp, mail, news, nobody, operator, postgres, postmaster, sshd, sync, uucp, webmaster, www
 
-
-
-
-
 post: running services
 
 linux\_exploit\_suggester
+
+
+
+25/tcp    open  smtp       Postfix smtpd
+
+\|\_smtp-commands: beep.localdomain, PIPELINING, SIZE 10240000, VRFY, ETRN, ENHANCEDSTATUSCODES, 8BITMIME, DSN, 
+
+
+
+voip maskin?
+
+root@kali:~/pt/htb/popcorn\# svmap 10.10.10.7 -v
+
+INFO:DrinkOrSip:trying to get self ip .. might take a while
+
+INFO:root:start your engines
+
+INFO:DrinkOrSip:10.10.10.7:5060	-&gt;	10.10.10.7:5060	-&gt;	FPBX-2.8.1\(1.8.7.0\)	-&gt;	disabled
+
+INFO:root:we have 1 devices
+
+\| SIP Device      \| User Agent          \| Fingerprint \|
+
+-------------------------------------------------------
+
+\| 10.10.10.7:5060 \| FPBX-2.8.1\(1.8.7.0\) \| disabled    \|
+
+
 

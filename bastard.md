@@ -26,7 +26,9 @@ Microsoft IIS httpd 7.5
 
 
 
-drupal 7, drupalgeddon
+drupal 7.54 exploit
 
-exploit/multi/http/drupal\_drupageddon
+https://www.ambionics.io/blog/drupal-services-module-rce
+
+https://github.com/mottoin/Drupal-Exploit
 
