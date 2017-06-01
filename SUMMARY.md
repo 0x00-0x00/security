@@ -110,6 +110,7 @@
     * [Quaoar](writeups/vulnhub/quaoar.md)
     * [Pluck 1](pluck-1.md)
     * [kioptrix 1](writeups/vulnhub/kioptrix-1.md)
+    * [kioptrix 2](writeups/vulnhub/kioptrix-2.md)
   * [SANS Holiday Hack 2016](writeups/sans-holiday-hack-2016.md)
 * [nsm hack](writeups/nsm-hack-chris.md)
 * [hackthebox](hackthebox.md)

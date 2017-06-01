@@ -16,8 +16,6 @@ octobercms
 
 
 
-
-
 suid enabled binaries / buffer overflows?
 
 /usr/local/bin/ovrflw
