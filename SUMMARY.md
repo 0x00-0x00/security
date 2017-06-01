@@ -124,7 +124,7 @@
   * [grandpa 14](grandpa.md)
   * [granny 15](hackthebox/granny.md)
   * [october 16](october.md)
-* [sneaky 20](sneaky-20.md)
-* [haircut 24](haircut-24.md)
-* [lazy 18](lazy-18.md)
+  * [lazy 18](lazy-18.md)
+  * [sneaky 20](sneaky-20.md)
+  * [haircut 24](haircut-24.md)
 
