@@ -86,13 +86,9 @@ post: running services
 
 linux\_exploit\_suggester
 
-
-
 25/tcp    open  smtp       Postfix smtpd
 
-\|\_smtp-commands: beep.localdomain, PIPELINING, SIZE 10240000, VRFY, ETRN, ENHANCEDSTATUSCODES, 8BITMIME, DSN, 
-
-
+\|\_smtp-commands: beep.localdomain, PIPELINING, SIZE 10240000, VRFY, ETRN, ENHANCEDSTATUSCODES, 8BITMIME, DSN,
 
 voip maskin?
 
@@ -102,15 +98,33 @@ INFO:DrinkOrSip:trying to get self ip .. might take a while
 
 INFO:root:start your engines
 
-INFO:DrinkOrSip:10.10.10.7:5060	-&gt;	10.10.10.7:5060	-&gt;	FPBX-2.8.1\(1.8.7.0\)	-&gt;	disabled
+INFO:DrinkOrSip:10.10.10.7:5060    -&gt;    10.10.10.7:5060    -&gt;    FPBX-2.8.1\(1.8.7.0\)    -&gt;    disabled
 
 INFO:root:we have 1 devices
 
 \| SIP Device      \| User Agent          \| Fingerprint \|
 
--------------------------------------------------------
-
 \| 10.10.10.7:5060 \| FPBX-2.8.1\(1.8.7.0\) \| disabled    \|
 
+\| Extension \| Authentication \|
 
+---
+
+\| 34001     \| weird          \|
+
+\| 3333      \| weird          \|
+
+\| 54500     \| weird          \|
+
+\| 69300     \| weird          \|
+
+\| 1400      \| weird          \|
+
+\| 1000      \| weird          \|
+
+[https://10.10.10.7/admin/config.php](https://10.10.10.7/admin/config.php)
+
+egen login her https://10.10.10.7/recordings/index.php
+
+kanskje sql?
 

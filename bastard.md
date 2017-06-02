@@ -60,3 +60,5 @@ user.txt **ba22fde1932d06eb76a163d312f921a2**
 
 prøvd token impersonation rottentpotato. no work
 
+**trenger å finne post exp**
+
