@@ -38,3 +38,5 @@ burde nå funke med path /rest og endpoint uforandret
 
 må putte php shell i data tagen
 
+systeminfo, server 2008 r2 x64, dual processor
+
