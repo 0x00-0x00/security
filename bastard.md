@@ -44,9 +44,17 @@ måtte så klart spawne et **windows reverse shell se under**
 
 8.p**hp **var den som virket kanskje tror jeg
 
-[https://github.com/Dhayalanb/windows-php-reverse-shell/blob/master/Reverse Shell.php](https://github.com/Dhayalanb/windows-php-reverse-shell/blob/master/Reverse Shell.php)
+eller 7?
+
+bruke
+
+[https://github.com/Dhayalanb/windows-php-reverse-shell/blob/master/Reverse Shell.php](https://github.com/Dhayalanb/windows-php-reverse-shell/blob/master/Reverse Shell.php) denne funker med shell\_Reverse\_tcp ikke meterpreter.
 
 først reverse shell, så opgpradere til meterpreter
+
+use post/multi/manage/shell\_to\_meterpreter
+
+set lport 4434 - dno hvorfor er noe galt med 4433
 
 gjøre om fra 32 til 64 bit meterpreter = execute -f "c:\windows\sysnative\notepad.exe" og migrate til den pid-en
 
