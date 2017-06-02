@@ -38,5 +38,27 @@ burde nå funke med path /rest og endpoint uforandret
 
 må putte php shell i data tagen
 
-systeminfo, server 2008 r2 x64, dual processor
+
+
+systeminfo, **server 2008 r2 x64**, dual processor
+
+måtte så klart spawne et **windows reverse shell**
+
+8**.php **var den som virket kanskje tror jeg
+
+[https://github.com/Dhayalanb/windows-php-reverse-shell/blob/master/Reverse Shell.php](https://github.com/Dhayalanb/windows-php-reverse-shell/blob/master/Reverse Shell.php)
+
+først reverse shell, så opgpradere til meterpreter
+
+gjøre om fra 32 til 64 bit meterpreter = execute -f "c:\windows\sysnative\notepad.exe" og migrate til den pid-en
+
+exploit/windows/local/ms10\_092\_schelevator - funket ikke
+
+ms16-032 sette 64-bit payload. still no work?
+
+
+
+iusr har visst read priv 
+
+user.txt **ba22fde1932d06eb76a163d312f921a2**
 
