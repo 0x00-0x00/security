@@ -40,9 +40,9 @@ må putte php shell i data tagen
 
 systeminfo, **server 2008 r2 x64**, dual processor
 
-måtte så klart spawne et **windows reverse shell**
+måtte så klart spawne et **windows reverse shell se under**
 
-8**.php **var den som virket kanskje tror jeg
+8.p**hp **var den som virket kanskje tror jeg
 
 [https://github.com/Dhayalanb/windows-php-reverse-shell/blob/master/Reverse Shell.php](https://github.com/Dhayalanb/windows-php-reverse-shell/blob/master/Reverse Shell.php)
 
@@ -57,8 +57,6 @@ ms16-032 sette 64-bit payload. still no work?
 iusr har visst read priv
 
 user.txt **ba22fde1932d06eb76a163d312f921a2**
-
-
 
 prøvd token impersonation rottentpotato. no work
 
