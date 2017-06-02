@@ -32,7 +32,9 @@ drupal 7.54 exploit
 
 wfuzz megabeast
 
-10.10.10.9/rest valdidation
+**10.10.10.9/rest** valdidation
 
 burde nå funke med path /rest og endpoint uforandret
+
+må putte php shell i data tagen
 
