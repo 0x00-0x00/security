@@ -6,11 +6,11 @@
 
 [http://10.10.10.24/uploads/](http://10.10.10.24/uploads/) 403 forbidden
 
-+ Server: nginx/1.10.0 \(Ubuntu\)
+* Server: nginx/1.10.0 \(Ubuntu\)
 
-+ Server leaks inodes via ETags, header found with file /, fields: 0x59198410 0x90 
+* Server leaks inodes via ETags, header found with file /, fields: 0x59198410 0x90
 
-**http://10.10.10.24/test.htm**l :D nikto
+[http://10.10.10.24/test.htm](http://10.10.10.24/test.htm)l :D nikto
 
-
+ingenting i bildet. kanskje noe med curl?
 
