@@ -8,5 +8,9 @@ Retrieved x-powered-by header: PHP/5.5.9-1ubuntu4.21
 
 [http://10.10.10.18/images/maxresdefault.jpg](http://10.10.10.18/images/maxresdefault.jpg) avslører joomla cms
 
-auth.php i 10.10.10.18/classes som redirecter til /admin/login.php
+auth.php i 10.10.10.18/classes avslører auth, db, phpfix og user.php
+
+ som redirecter til /admin/login.php
+
+http://10.10.10.18/images/
 
