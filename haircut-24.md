@@ -14,3 +14,7 @@
 
 ingenting i bildet. kanskje noe med curl?
 
+cache poisoning?
+
+http splitting?
+
