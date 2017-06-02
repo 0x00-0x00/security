@@ -38,8 +38,6 @@ burde nå funke med path /rest og endpoint uforandret
 
 må putte php shell i data tagen
 
-
-
 systeminfo, **server 2008 r2 x64**, dual processor
 
 måtte så klart spawne et **windows reverse shell**
@@ -56,9 +54,11 @@ exploit/windows/local/ms10\_092\_schelevator - funket ikke
 
 ms16-032 sette 64-bit payload. still no work?
 
-
-
-iusr har visst read priv 
+iusr har visst read priv
 
 user.txt **ba22fde1932d06eb76a163d312f921a2**
+
+
+
+prøvd token impersonation rottentpotato. no work
 
