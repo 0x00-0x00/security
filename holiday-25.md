@@ -6,5 +6,5 @@ linux
 
 8000/tcp open  http    Node.js Express framework
 
-hex?
+hex?http://resources.infosecinstitute.com/penetration-testing-node-js-applications-part-1/
 
