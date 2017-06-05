@@ -40,3 +40,7 @@ enumerater med burp intruder for page\_id=number 1-100 og sjekker om vi finner n
 
 hackeraccessgranted
 
+drit i det. kan jo laste opp pdf og kjøre?
+
+
+
