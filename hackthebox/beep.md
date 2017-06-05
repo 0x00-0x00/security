@@ -112,67 +112,7 @@ INFO:root:we have 1 devices
 
 \| Extension \| Authentication \|
 
----
-
-\| 704       \| weird          \|
-
-\| 62501     \| weird          \|
-
-\| 707       \| weird          \|
-
-\| 67700     \| weird          \|
-
-\| 68800     \| weird          \|
-
-\| 16700     \| weird          \|
-
 **\| 233       \| reqauth        \|**
-
-\| 83701     \| weird          \|
-
-\| 16001     \| weird          \|
-
-\| 13001     \| weird          \|
-
-\| 548       \| weird          \|
-
-\| 14101     \| weird          \|
-
-\| 633       \| weird          \|
-
-\| 13901     \| weird          \|
-
-\| 71000     \| weird          \|
-
-\| 16101     \| weird          \|
-
-\| 32201     \| weird          \|
-
-\| 72001     \| weird          \|
-
-\| 15501     \| weird          \|
-
-\| 61701     \| weird          \|
-
-\| 13601     \| weird          \|
-
-\| 844       \| weird          \|
-
-\| 84101     \| weird          \|
-
-\| 49800     \| weird          \|
-
-\| 68000     \| weird          \|
-
-\| 69900     \| weird          \|
-
-\| 17300     \| weird          \|
-
-\| 12301     \| weird          \|
-
-\| 68200     \| weird          \|
-
-\| 513       \| weird          \|
 
 root@kali:~/pt/htb/beep\# telnet 10.10.10.7 5038
 
@@ -197,8 +137,6 @@ secret: amp111
 egen login her [https://10.10.10.7/recordings/index.php](https://10.10.10.7/recordings/index.php)
 
 kanskje sqli? nope virket ikke
-
-
 
 I managed to get root without exploitation. Check for service misconfigurations
 
