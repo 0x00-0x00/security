@@ -10,7 +10,11 @@
 
 [http://www.securitynewspaper.com/2016/05/16/new-simple-attack-squid-proxies-leverages-malicious-flash-ads/](http://www.securitynewspaper.com/2016/05/16/new-simple-attack-squid-proxies-leverages-malicious-flash-ads/)
 
-http://free.eol.cn/edu\_net/edudown/zz/201609.pdf
+[http://free.eol.cn/edu\_net/edudown/zz/201609.pdf](http://free.eol.cn/edu_net/edudown/zz/201609.pdf)
 
 ![](/assets/2017-06-05-230210_767x461_scrot.png)
+
+koble til med chromium ip og port. prompt for authentication
+
+The proxy moz-proxy://127.0.0.1:8080 is requesting a username and password. The site says: "kalamari"
 
