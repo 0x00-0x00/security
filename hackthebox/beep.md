@@ -28,8 +28,6 @@ linux-maskin
 
 `10000/tcp open  snet-sensor-mgmt`
 
-http med sql. nice
-
 apache 2.2.3 men ingen exploits
 
 111/tcp   open  rpcbind    2 \(RPC \#100000\)
@@ -104,29 +102,31 @@ INFO:root:we have 1 devices
 
 \| SIP Device      \| User Agent          \| Fingerprint \|
 
-\| 10.10.10.7:5060 \| FPBX-2.8.1\(1.8.7.0\) \| disabled    \|
+\| 10.10.10.7:5060 \|** FPBX-2.8.1\(1.8.7.0**\) \| disabled    \|
 
 \| Extension \| Authentication \|
 
 **\| 233       \| reqauth        \|**
 
-root@kali:~/pt/htb/beep\# telnet 10.10.10.7 5038
+`root@kali:~/pt/htb/beep# telnet 10.10.10.7 5038`
 
-Trying 10.10.10.7...
+`Trying 10.10.10.7...`
 
-Connected to 10.10.10.7.
+`Connected to 10.10.10.7.`
 
-Escape character is '^\]'.
+`Escape character is '^]'.`
 
-Asterisk Call Manager/1.1
+`Asterisk Call Manager/1.1`
 
-action: login
+`action: login`
 
-username: admin
+`username: admin`
 
-secret: amp111
+`secret: amp111`
 
 **no work**
+
+**auxiliary/voip/asterisk\_login **no work
 
 [https://10.10.10.7/admin/config.php](https://10.10.10.7/admin/config.php)
 
