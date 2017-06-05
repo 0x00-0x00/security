@@ -28,21 +28,15 @@ prøvde å laste opp noe stygt: Sorry, this file type is not permitted for secur
 
 sjekker tall oppover?
 
-[http://10.10.10.10/index.php/jobs/apply/13/](http://10.10.10.10/index.php/jobs/apply/13/) = hackeraccessgranted?
+[**http://10.10.10.10/index.php/jobs/apply/13/**](http://10.10.10.10/index.php/jobs/apply/13/)
 
-[http://10.10.10.10/?page\_id=113](http://10.10.10.10/?page_id=113) = [http://10.10.10.10/index.php/jobman\_app/application-2/hackeraccessgranted/](http://10.10.10.10/index.php/jobman_app/application-2/hackeraccessgranted/)
+[**http://10.10.10.10/?page\_id=13**](http://10.10.10.10/?page_id=113)** = **[**http://10.10.10.10/index.php/jobman\_app/application-2/hackeraccessgranted/**](http://10.10.10.10/index.php/jobman_app/application-2/hackeraccessgranted/)
 
-
-
-https://vagmour.eu/cve-2015-6668-cv-filename-disclosure-on-job-manager-wordpress-plugin/
+[https://vagmour.eu/cve-2015-6668-cv-filename-disclosure-on-job-manager-wordpress-plugin/](https://vagmour.eu/cve-2015-6668-cv-filename-disclosure-on-job-manager-wordpress-plugin/)
 
 enumerater med burp intruder for page\_id=number 1-100 og sjekker om vi finner noe
 
-
-
-http://10.10.10.10 
+[http://10.10.10.10](http://10.10.10.10)
 
 hackeraccessgranted
-
-
 
