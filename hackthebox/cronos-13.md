@@ -1,10 +1,28 @@
-### cronos f
+### cronos 10.10.10.13
 
 linux
 
-22,53,80
+`22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.1 (Ubuntu Linux; protocol 2.0)`
 
-apache 2.4.18
+`53/tcp open  domain  ISC BIND 9.10.3-P4-Ubuntu`
 
-dns hacking?
+`80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))`
+
+
+
+root@kali:~\# dnsrecon -d 10.10.10.13 -t zonewalk
+
+\[\*\] Performing NSEC Zone Walk for 10.10.10.13
+
+\[\*\] Getting SOA record for 10.10.10.13
+
+\[\*\] Name Server 75.127.96.89 will be used
+
+\[\*\] 	 A 10.10.10.13 10.10.10.13
+
+\[\*\] 	 A aaa no\_ip
+
+\[\*\] 2 records found
+
+
 
