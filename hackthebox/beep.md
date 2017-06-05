@@ -112,7 +112,7 @@ INFO:root:we have 1 devices
 
 \| Extension \| Authentication \|
 
-------------------------------
+---
 
 \| 704       \| weird          \|
 
@@ -138,7 +138,7 @@ INFO:root:we have 1 devices
 
 \| 14101     \| weird          \|
 
- \| 633       \| weird          \|
+\| 633       \| weird          \|
 
 \| 13901     \| weird          \|
 
@@ -174,8 +174,6 @@ INFO:root:we have 1 devices
 
 \| 513       \| weird          \|
 
-
-
 root@kali:~/pt/htb/beep\# telnet 10.10.10.7 5038
 
 Trying 10.10.10.7...
@@ -194,11 +192,13 @@ secret: amp111
 
 **no work**
 
-
-
 [https://10.10.10.7/admin/config.php](https://10.10.10.7/admin/config.php)
 
 egen login her [https://10.10.10.7/recordings/index.php](https://10.10.10.7/recordings/index.php)
 
 kanskje sqli? nope virket ikke
+
+
+
+I managed to get root without exploitation. Check for service misconfigurations
 

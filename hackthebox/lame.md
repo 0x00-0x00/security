@@ -24,7 +24,7 @@ vsftpd 2.3.4, prøvde metasploit uten hell
 
 ssh erOpenSSH 4.7p1 - ingen vulns
 
-port 139 smb har version 3.0.20 [https://www.rapid7.com/db/modules/exploit/multi/samba/usermap\_script](https://www.rapid7.com/db/modules/exploit/multi/samba/usermap_script)
+port 139 og 445 smb har version 3.0.20 [https://www.rapid7.com/db/modules/exploit/multi/samba/usermap\_script](https://www.rapid7.com/db/modules/exploit/multi/samba/usermap_script)
 
 **shell! og root!**
 
