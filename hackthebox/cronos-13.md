@@ -1,4 +1,4 @@
-### cronos 10.10.10.13
+### cronos f
 
 linux
 
