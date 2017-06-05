@@ -108,10 +108,6 @@ INFO:root:we have 1 devices
 
 \| Extension \| Authentication \|
 
----
-
-\| Extension \| Authentication \|
-
 **\| 233       \| reqauth        \|**
 
 root@kali:~/pt/htb/beep\# telnet 10.10.10.7 5038
