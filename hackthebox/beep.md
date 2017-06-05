@@ -132,6 +132,8 @@ INFO:root:we have 1 devices
 
 egen login her [https://10.10.10.7/recordings/index.php](https://10.10.10.7/recordings/index.php)
 
+sier versjon pbx 2.5 som visstnok skal være sårbar for xss?
+
 kanskje sqli? nope virket ikke
 
 I managed to get root without exploitation. Check for service misconfigurations
