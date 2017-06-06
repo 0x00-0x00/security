@@ -10,7 +10,9 @@ Retrieved x-powered-by header: PHP/5.5.9-1ubuntu4.21
 
 auth.php i 10.10.10.18/classes avslører auth, db, phpfix og user.php
 
- som redirecter til /admin/login.php
+som redirecter til /admin/login.php
 
-http://10.10.10.18/images/
+[http://10.10.10.18/images/](http://10.10.10.18/images/)
+
+cookie stealing?
 

@@ -26,5 +26,23 @@ use auxiliary/gather/enum\_dns
 
 [https://www.exploit-db.com/docs/12389.pdf](https://www.exploit-db.com/docs/12389.pdf)
 
-https://pentestlab.blog/tag/dns-enumeration/
+[https://pentestlab.blog/tag/dns-enumeration/](https://pentestlab.blog/tag/dns-enumeration/)
+
+
+
+root@kali:~\# host -t ns 10.10.10.13 10.10.10.13
+
+Using domain server:
+
+Name: 10.10.10.13
+
+Address: 10.10.10.13\#53
+
+Aliases: 
+
+
+
+13.10.10.10.in-addr.arpa domain name pointer **ns1.cronos.htb.**
+
+
 
