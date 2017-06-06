@@ -14,11 +14,11 @@ octobercms
 
   Potentially risky methods: PUT PATCH DELETE
 
-http://10.10.10.16/backend/backend/auth/signin
-
-
+[http://10.10.10.16/backend/backend/auth/signin](http://10.10.10.16/backend/backend/auth/signin)
 
 suid enabled binaries / buffer overflows?
 
 /usr/local/bin/ovrflw
+
+Exploiting /usr/local/bin/ovrflw but NX bit is on and ASLR is enabled on the machine
 
