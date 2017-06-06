@@ -22,7 +22,7 @@ suid enabled binaries / buffer overflows?
 
 Exploiting /usr/local/bin/ovrflw but NX bit is on and ASLR is enabled on the machine
 
-
-
 man skal visst få admin panel
+
+admin admin er login 
 
