@@ -127,10 +127,10 @@
   * [grandpa 14](grandpa.md)
   * [granny 15](hackthebox/granny.md)
   * [october 16](october.md)
+  * [brainfuck 17](brainfuck-17.md)
   * [lazy 18](lazy-18.md)
   * [sneaky 20](sneaky-20.md)
+  * [joker 21](joker-21.md)
   * [haircut 24](haircut-24.md)
   * [holiday 25](holiday-25.md)
-* [joker 21](joker-21.md)
-* [brainfuck 17](brainfuck-17.md)
 
