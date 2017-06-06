@@ -138,3 +138,5 @@ kanskje sqli? nope virket ikke
 
 I managed to get root without exploitation. Check for service misconfigurations
 
+https://www.rebootuser.com/?p=1117
+
