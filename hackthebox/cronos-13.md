@@ -8,8 +8,6 @@ linux
 
 `80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))`
 
-
-
 root@kali:~\# dnsrecon -d 10.10.10.13 -t zonewalk
 
 \[\*\] Performing NSEC Zone Walk for 10.10.10.13
@@ -18,11 +16,13 @@ root@kali:~\# dnsrecon -d 10.10.10.13 -t zonewalk
 
 \[\*\] Name Server 75.127.96.89 will be used
 
-\[\*\] 	 A 10.10.10.13 10.10.10.13
+\[\*\]      A 10.10.10.13 10.10.10.13
 
-\[\*\] 	 A aaa no\_ip
+\[\*\]      A aaa no\_ip
 
 \[\*\] 2 records found
 
 
+
+auxiliary/gather/enum\_dns
 
