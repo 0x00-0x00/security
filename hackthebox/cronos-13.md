@@ -24,5 +24,7 @@ root@kali:~\# dnsrecon -d 10.10.10.13 -t zonewalk
 
 use auxiliary/gather/enum\_dns
 
-**https://www.exploit-db.com/docs/12389.pdf**
+[https://www.exploit-db.com/docs/12389.pdf](https://www.exploit-db.com/docs/12389.pdf)
+
+https://pentestlab.blog/tag/dns-enumeration/
 
