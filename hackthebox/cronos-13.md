@@ -22,7 +22,7 @@ root@kali:~\# dnsrecon -d 10.10.10.13 -t zonewalk
 
 \[\*\] 2 records found
 
+use auxiliary/gather/enum\_dns
 
-
-auxiliary/gather/enum\_dns
+**https://www.exploit-db.com/docs/12389.pdf**
 
