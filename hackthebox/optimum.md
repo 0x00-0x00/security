@@ -75,7 +75,7 @@ ting som må stemme:
 
 `exploit`
 
-`use exploit/windows/local/ms16_032_secondary_logon_handle_privesc`
+**`use exploit/windows/local/ms16_032_secondary_logon_handle_privesc`**
 
 `set session 1`
 
