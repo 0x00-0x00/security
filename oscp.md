@@ -6,7 +6,7 @@ cory is a difficult machime
 
 "big 3" in the course are called pain, sufference and humble
 
-exploit 8478 pain oscp https://www.exploit-db.com/exploits/8478/
+exploit 8478 pain oscp [https://www.exploit-db.com/exploits/8478/](https://www.exploit-db.com/exploits/8478/)
 
 exam: 5 machines, must root 4. the hardest is buffer overflow from scratch
 
@@ -23,6 +23,8 @@ exam: 5 machines, must root 4. the hardest is buffer overflow from scratch
 ### OSCP-like Vulnhub VMs
 
 Before starting the PWK course I solved some of the Vulnhub VMs so I don't need to start from rock bottom on the PWK lab. Below is a list of Vulnhub VMs I solved, most of them are similar to what you'll be facing in the lab. I've written walkthroughs for a few of them as well, but try harder first ;\)
+
+http://www.abatchy.com/2017/02/oscp-like-vulnhub-vms.html
 
 **  
 Beginner friendly:**  
