@@ -25,9 +25,9 @@ Grab banners manually for more clarity: nc -nv <ip-address> <port>
 
 `Gobuster -u http://<ip-address> -w /usr/share/Seclists/Discovery/Web_Content/common.txt`
 
-/usr/share/secLists/Discovery folder has some great word lists
+`/usr/share/secLists/Discovery` folder has some great word lists
 
-If only web port visible try a bigger list in dirb: /usr/share/wordlist/dirb/big.txt
+If only web port visible try a bigger list in dirb: `/usr/share/wordlist/dirb/big.txt`
 
 Use Burpsuite as needed
 
