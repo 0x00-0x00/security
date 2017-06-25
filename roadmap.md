@@ -1,4 +1,4 @@
-## Enumeration Roadmap (for OSCP Labs):
+``````## Enumeration Roadmap (for OSCP Labs):
 
 https://theslickgeek.com/oscp/
 
@@ -15,7 +15,7 @@ As promised earlier, I’m going to share my specific strategy that I used for e
 
 `Nmap -Pn -sV -O -pT:{TCP ports found in step 1},U:{UDP ports found in step 1} -script *vuln* <ip address>`
 
-Grab banners manually for more clarity: nc -nv <ip-address> <port>
+Grab banners manually for more clarity: `nc -nv <ip-address> <port>`
 
 ### Step 3: Any web port(s) for further enumeration?
 
