@@ -1,8 +1,6 @@
-``````## Enumeration Roadmap (for OSCP Labs):
+## Enumeration Roadmap:
 
 https://theslickgeek.com/oscp/
-
-As promised earlier, I’m going to share my specific strategy that I used for enumerating the lab machines. Please take what you like and tweak it to customize it for what you find best. You can also go a step further and put these all in a code for automation during exam. These are my chicken notes so please bear with me. Here we go:
 
 
 ### Step 1: Nmap basic scan
