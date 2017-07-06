@@ -80,5 +80,5 @@ echo. & echo. & echo whoami: & whoami 2> nul & echo %username% 2> nul & echo. & 
 
 ### Hints
 
-Meterpreter is allowed on one machine. Normal reverse listeners are allowed in msfconsole. 
+Meterpreter is allowed on one machine. Normal reverse listeners are allowed in msfconsole. Msfvenom is therefore available.
 
