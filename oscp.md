@@ -82,3 +82,5 @@ echo. & echo. & echo whoami: & whoami 2> nul & echo %username% 2> nul & echo. & 
 
 Meterpreter is allowed on one machine. Normal reverse listeners are allowed in msfconsole. Msfvenom is therefore available.
 
+If you cant find it on exploit-db its not the right path.
+
