@@ -1,14 +1,5 @@
 # OSCP
 
-**Some info**
-
-cory is a difficult machime
-
-"big 3" in the course are called pain, sufference and humble
-
-exploit 8478 pain oscp [https://www.exploit-db.com/exploits/8478/](https://www.exploit-db.com/exploits/8478/)
-
-exam: 5 machines, must root 4. the hardest is buffer overflow from scratch
 
 **Should learn:**
 
